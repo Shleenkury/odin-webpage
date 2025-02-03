@@ -1,0 +1,28 @@
+body {display: flex;
+    margin: 0;
+flex-direction: column;
+height: 100vh;}
+
+header {font-style: roboto;
+background-color: #1F2937;}
+
+
+.top {background-color:#1F2937;
+flex: 4;}
+
+
+
+.middle1 {flex: 4;}
+
+
+
+.middle2 {background-color: #E5E7EB;
+flex: 4;}
+
+
+
+.bottom {flex:3 ;}
+
+
+footer {flex: 2;
+    background-color: #1F2937;}
