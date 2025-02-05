@@ -1,28 +1,153 @@
-body {display: flex;
-    margin: 0;
-flex-direction: column;
-height: 100vh;}
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  height: 100vh;
+}
 
-header {font-style: roboto;
-background-color: #1F2937;}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
 
+header {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: white;
+  background-color: #1f2937;
+}
 
-.top {background-color:#1F2937;
-flex: 4;}
+.header-links {
+  display: flex;
+  margin-left: auto;
+  gap: 30px;
+}
 
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1f2937;
+  flex: 5;
+}
+.topbutton {margin-top: 8px;}
 
+.top-text {
+  display: flex;
+  flex-direction: column;
+}
 
-.middle1 {flex: 4;}
+.Raigo {
+  width: 300px;
+  clip-path: circle(120px);
+  height: 200px;
+}
 
+button {
+  width: 90px;
+  color: white;
+  background-color: #3882f6;
+  border-radius: 6px;
+}
 
+h1 {
+  margin: 0;
+}
 
-.middle2 {background-color: #E5E7EB;
-flex: 4;}
+.middle1 {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  justify-content: center;
+}
 
+.h1-demand {
+  margin-top: 10px;
+}
 
+.devil-fruits {text-align: center;
+  font-family: "Noto Sans Duployan", serif;
+  display: flex;
+}
 
-.bottom {flex:3 ;}
+.pika {}
 
+.pikaimg {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: solid yellow 2px;
+}
 
-footer {flex: 2;
-    background-color: #1F2937;}
+.middle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  flex: 4;
+}
+
+.quote {
+  font-family: "Courier New", Courier, monospace;
+  width: 400px;
+  font-size: 36px;
+}
+
+.citer {
+  font-style: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 4;
+}
+
+.bottom-container {
+  display: flex;
+  background-color: #3882f6;
+  height: 100px;
+  width: 800px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+span {
+  padding-left: 100px;
+  color: white;
+}
+
+.bottom-button {
+  padding-right: 100px;
+}
+
+.bottom-signup {
+  width: 90px;
+  color: white;
+  background-color: #3882f6;
+  border: solid 1px;
+  border-radius: 6px;
+}
+
+h3 {
+  margin: 0;
+}
+
+footer {
+  flex: 1;
+  background-color: #1f2937;
+}
