@@ -36,7 +36,9 @@ header {
   background-color: #1f2937;
   flex: 5;
 }
-.topbutton {margin-top: 8px;}
+.topbutton {
+  margin-top: 8px;
+}
 
 .top-text {
   display: flex;
@@ -61,6 +63,7 @@ h1 {
 }
 
 .middle1 {
+  font-family: "Source Code Pro", serif;
   text-align: center;
   align-items: center;
   display: flex;
@@ -69,22 +72,55 @@ h1 {
   justify-content: center;
 }
 
-.h1-demand {
-  margin-top: 10px;
+.middle1background {
+  right: 1500px;
+  top: 260px;
+  position: absolute;
+  z-index: -3;
+  height: 250px;
 }
 
-.devil-fruits {text-align: center;
+.h1-demand {
+  margin-top: 0px;
+}
+
+.devil-fruits {
+  gap: 80px;
+  text-align: center;
   font-family: "Noto Sans Duployan", serif;
   display: flex;
 }
 
-.pika {}
-
 .pikaimg {
-  height: 100px;
-  width: 100px;
+  height: 85px;
+  width: 85px;
   border-radius: 100%;
+  background-color: rgb(141, 243, 243);
   border: solid yellow 2px;
+}
+
+.dftext {
+  font-family: "Source Code Pro", serif;
+  max-width: 100%;
+  word-wrap: break-word;
+  width: 200px;
+}
+
+.guraimg {
+  height: 85px;
+  width: 85px;
+  border-radius: 100%;
+}
+
+.uoimg {
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+}
+
+.opimg {
+  height: 80px;
+  width: 80px;
 }
 
 .middle2 {
@@ -92,8 +128,14 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e5e7eb;
+  background-color: #ebebeb;
   flex: 4;
+}
+
+.enelimg {
+  position: absolute;
+  left: 1600px;
+  height: 180px;
 }
 
 .quote {
@@ -138,8 +180,7 @@ span {
 .bottom-signup {
   width: 90px;
   color: white;
-  background-color: #3882f6;
-  border: solid 1px;
+  background-color: #5996f8;
   border-radius: 6px;
 }
 
